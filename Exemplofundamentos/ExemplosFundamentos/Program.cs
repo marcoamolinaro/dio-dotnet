@@ -125,7 +125,16 @@ arrayInteiros[1] = 2;
 arrayInteiros[2] = 3;
 //arrayInteiros[3] = 4; Erro
 
+Console.WriteLine("Pecorrendo um array com FOR");
 for (int ind = 0; ind < arrayInteiros.Length; ind++) 
 {
     Console.WriteLine($"Indice {ind} contém o valor {arrayInteiros[ind]}");
+}
+
+Console.WriteLine("Pecorrendo um array com FOREACH");
+int ind1 = 0;
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine($"Indice {ind1} contém o valor {valor}");
+    ind1++;
 }
