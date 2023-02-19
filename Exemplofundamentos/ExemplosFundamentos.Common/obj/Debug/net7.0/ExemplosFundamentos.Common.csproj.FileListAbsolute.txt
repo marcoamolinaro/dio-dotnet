@@ -1,0 +1,12 @@
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\bin\Debug\net7.0\ExemplosFundamentos.Common.deps.json
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\bin\Debug\net7.0\ExemplosFundamentos.Common.dll
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\bin\Debug\net7.0\ExemplosFundamentos.Common.pdb
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ExemplosFundamentos.Common.csproj.AssemblyReference.cache
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ExemplosFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ExemplosFundamentos.Common.AssemblyInfoInputs.cache
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ExemplosFundamentos.Common.AssemblyInfo.cs
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ExemplosFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ExemplosFundamentos.Common.dll
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\refint\ExemplosFundamentos.Common.dll
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ExemplosFundamentos.Common.pdb
+C:\Users\Marco A Molinaro\Desenvolvedor\DIO\DOTNET\exemplofundamentos\ExemplosFundamentos.Common\obj\Debug\net7.0\ref\ExemplosFundamentos.Common.dll
