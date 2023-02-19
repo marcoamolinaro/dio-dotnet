@@ -125,6 +125,8 @@ arrayInteiros[1] = 2;
 arrayInteiros[2] = 3;
 //arrayInteiros[3] = 4; Erro
 
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
 Console.WriteLine("Pecorrendo um array com FOR");
 for (int ind = 0; ind < arrayInteiros.Length; ind++) 
 {
