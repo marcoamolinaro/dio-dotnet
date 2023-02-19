@@ -125,17 +125,20 @@ arrayInteiros[1] = 2;
 arrayInteiros[2] = 3;
 //arrayInteiros[3] = 4; Erro
 
-Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
-Console.WriteLine("Pecorrendo um array com FOR");
-for (int ind = 0; ind < arrayInteiros.Length; ind++) 
-{
-    Console.WriteLine($"Indice {ind} contém o valor {arrayInteiros[ind]}");
-}
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// Console.WriteLine("Pecorrendo um array com FOR");
+// for (int ind = 0; ind < arrayInteiros.Length; ind++) 
+// {
+//     Console.WriteLine($"Indice {ind} contém o valor {arrayInteiros[ind]}");
+// }
 
 Console.WriteLine("Pecorrendo um array com FOREACH");
 int ind1 = 0;
-foreach(int valor in arrayInteiros)
+foreach(int valor in arrayInteirosDobrado)
 {
     Console.WriteLine($"Indice {ind1} contém o valor {valor}");
     ind1++;
