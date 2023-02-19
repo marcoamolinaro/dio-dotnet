@@ -118,28 +118,61 @@
 //     }
 // }
 
-int[] arrayInteiros = new int[3];
+// int[] arrayInteiros = new int[3];
 
-arrayInteiros[0] = 1;
-arrayInteiros[1] = 2;
-arrayInteiros[2] = 3;
-//arrayInteiros[3] = 4; Erro
+// arrayInteiros[0] = 1;
+// arrayInteiros[1] = 2;
+// arrayInteiros[2] = 3;
+// //arrayInteiros[3] = 4; Erro
 
-//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+// //Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
-int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
-Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
-// Console.WriteLine("Pecorrendo um array com FOR");
-// for (int ind = 0; ind < arrayInteiros.Length; ind++) 
+// // Console.WriteLine("Pecorrendo um array com FOR");
+// // for (int ind = 0; ind < arrayInteiros.Length; ind++) 
+// // {
+// //     Console.WriteLine($"Indice {ind} contém o valor {arrayInteiros[ind]}");
+// // }
+
+// Console.WriteLine("Pecorrendo um array com FOREACH");
+// int ind1 = 0;
+// foreach(int valor in arrayInteirosDobrado)
 // {
-//     Console.WriteLine($"Indice {ind} contém o valor {arrayInteiros[ind]}");
+//     Console.WriteLine($"Indice {ind1} contém o valor {valor}");
+//     ind1++;
 // }
 
-Console.WriteLine("Pecorrendo um array com FOREACH");
-int ind1 = 0;
-foreach(int valor in arrayInteirosDobrado)
+List<string> listaString = new List<string>();
+
+listaString.Add("RJ");
+listaString.Add("SP");
+listaString.Add("SC");
+listaString.Add("MG");
+
+Console.WriteLine($"Itens na lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("BA");
+
+Console.WriteLine($"Itens na lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString[2] = "PR";
+
+Console.WriteLine("Percorrendo Lista com FOR");
+for (int ind = 0; ind < listaString.Count; ind++)
 {
-    Console.WriteLine($"Indice {ind1} contém o valor {valor}");
-    ind1++;
+    Console.WriteLine($"No indice Nº {ind} o valor é {listaString[ind]}");
+}
+
+Console.WriteLine("Percorrendo Lista com FOREACH");
+int indice = 0;
+foreach (string valor in listaString)
+{
+    Console.WriteLine($"No indice Nº {indice} o valor é {valor}");
+    indice++;
 }
