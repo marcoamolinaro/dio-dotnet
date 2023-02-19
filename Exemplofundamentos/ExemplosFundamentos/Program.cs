@@ -104,16 +104,28 @@
 
 // Teste Usando Main (Nas versões >= .NET6 não é mais necessário)
 
-namespace ExemplosFundamentos
+// namespace ExemplosFundamentos
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Pessoa p1 = new Pessoa();
+//             p1.Nome = "Marco";
+//             p1.Idade = 59;
+//             p1.Apresentar();
+//         }
+//     }
+// }
+
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 1;
+arrayInteiros[1] = 2;
+arrayInteiros[2] = 3;
+//arrayInteiros[3] = 4; Erro
+
+for (int ind = 0; ind < arrayInteiros.Length; ind++) 
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Pessoa p1 = new Pessoa();
-            p1.Nome = "Marco";
-            p1.Idade = 59;
-            p1.Apresentar();
-        }
-    }
+    Console.WriteLine($"Indice {ind} contém o valor {arrayInteiros[ind]}");
 }
